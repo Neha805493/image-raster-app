@@ -1,0 +1,26 @@
+.cell-list {
+    width: 100px; 
+    background-color: white;
+    color: #000; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black; 
+  }
+  
+  .cell-item {
+    margin: 10px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    width: 100%; 
+    border: 1px solid #333; 
+    justify-content: center;
+  }
+  
+  .cell-item span {
+    margin-left: 8px;
+    font-size: 14px;
+  }
